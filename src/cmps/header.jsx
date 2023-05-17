@@ -7,12 +7,12 @@ import { Login } from "./login"
 import { getDefaultUser } from '../services/user.service'
 import { login } from "../store/actions/user.action"
 
-import userIcon from '../assets/imgs/users.png'
-import alarm from '../assets/imgs/alarm_h.png'
-import edit from '../assets/imgs/edit.png'
+import userIcon from '../assets/imgs/users.jpg'
+import alarm from '../assets/imgs/alarm_h.jpg'
+import edit from '../assets/imgs/edit5.jpg'
 import main from '../assets/imgs/main.jpg'
-import fan from '../assets/imgs/fan.png'
-import about from '../assets/imgs/about_h.png'
+import fan from '../assets/imgs/fan.jpg'
+import about from '../assets/imgs/about_h.jpg'
 
 
 export function Header() {

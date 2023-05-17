@@ -1,6 +1,6 @@
-import fanOff from '../assets/imgs/off.png'
-import fanOn1 from '../assets/imgs/on1.png'
-import fanOn2 from '../assets/imgs/on2.png'
+import fanOff from '../assets/imgs/off.jpg'
+import fanOn1 from '../assets/imgs/on1.jpg'
+import fanOn2 from '../assets/imgs/on2.jpg'
 
 
 const mode = [

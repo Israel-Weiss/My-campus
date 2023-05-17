@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom'
-import alarm from '../assets/imgs/alarm.png'
-import edit from '../assets/imgs/edit5.png'
+import alarm from '../assets/imgs/alarm.jpg'
+import edit from '../assets/imgs/edit5.jpg'
 import main from '../assets/imgs/main.jpg'
 import fan from '../assets/imgs/control2.jpg'
-import about from '../assets/imgs/about.png'
+import about from '../assets/imgs/about.jpg'
 
 
 export function Main() {
