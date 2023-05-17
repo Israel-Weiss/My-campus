@@ -21,7 +21,7 @@ async function startTempInterval() {
         for (var i = 0; i < towerNames.length; i++) {
             await setTowertemp(towerNames[i])
         }
-    }, 10 * 1000)
+    }, 30 * 1000)
 }
 
 async function setTowertemp(towerName) {
