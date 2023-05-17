@@ -9,7 +9,7 @@ import { login } from "../store/actions/user.action"
 
 import userIcon from '../assets/imgs/users.jpg'
 import alarm from '../assets/imgs/alarm_h.jpg'
-import edit from '../assets/imgs/edit5.jpg'
+import edit from '../assets/imgs/edit.jpg'
 import main from '../assets/imgs/main.jpg'
 import fan from '../assets/imgs/fan.jpg'
 import about from '../assets/imgs/about_h.jpg'

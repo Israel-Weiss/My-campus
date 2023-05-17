@@ -1,8 +1,7 @@
 {
   "name": "ex_1",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/my-complex",
-  "private": true,
+  "homepage": "https://Israel-Weiss.github.io/my-campus",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -15,7 +14,8 @@
     "react-scripts": "^5.0.1",
     "redux": "^4.2.1",
     "redux-thunk": "^2.4.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.19"
   },
   "scripts": {
     "predeploy": "npm run build",
