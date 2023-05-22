@@ -10,7 +10,7 @@ import { startTempInterval } from "../../services/fc.temp.service"
 
 let render = false
 
-export function AirList({ tower, floor, outFloor, inFloor }) {
+export function AirList({ tower, floor, exitTheFloor, enterTheFloor }) {
 
     useEffect(() => {
         loadFcs()
@@ -36,7 +36,7 @@ export function AirList({ tower, floor, outFloor, inFloor }) {
 
     const openModal = (fcId, field, val = null, max = null) => {
         if (loggedInUser.authorization < 1) return alert(`Hellow ${loggedInUser.name}! 
-        You are not authorized to do this action. 
+        You are not authorized to perform this action. 
         Please login with an authorized user. 
         (Try login with - "name: operator, password: 2222" )`)
         setModalParams({ fcId, field, val, max })
@@ -60,11 +60,11 @@ export function AirList({ tower, floor, outFloor, inFloor }) {
     return <div className="fc-list-continer">
 
         <section className='title-continer'>
-            <button className="button go-back" onClick={outFloor}>Floor menu</button>
+            <button className="button go-back" onClick={exitTheFloor}>Floor menu</button>
             <p>Fan Coil units - Tower {tower} - Floor {floor.replace('fl', '')}</p>
             <div className="arrows">
-                <button className="buuton" onClick={() => inFloor((floorNum + 1).toString().padStart(2, 0))}>&#8679;</button>
-                <button className="buuton" onClick={() => inFloor((floorNum - 1).toString().padStart(2, 0))}>&#8681;</button>
+                <button className="buuton" onClick={() => enterTheFloor((floorNum + 1).toString().padStart(2, 0))}>&#8679;</button>
+                <button className="buuton" onClick={() => enterTheFloor((floorNum - 1).toString().padStart(2, 0))}>&#8681;</button>
             </div>
         </section>
         <section className="background">
@@ -87,16 +87,16 @@ export function AirList({ tower, floor, outFloor, inFloor }) {
                 {fcsList.map(fc => < AirPrivew fc={fc} openModal={openModal} key={fc._id} />)}
 
                 {openPrompt && < ModalPrompt closeModal={closeModal} onUpdate={onUpdate}
-                    tower={tower} modalParams={modalParams} />}
+                    towerName={tower} modalParams={modalParams} />}
 
                 {modalParams.field === 'com' && < ModalAirCom closeModal={closeModal}
-                    tower={tower} onUpdate={onUpdate} id={modalParams.fcId} />}
+                    towerName={tower} onUpdate={onUpdate} id={modalParams.fcId} />}
 
                 {modalParams.field === 'mode' && < ModalAirMode closeModal={closeModal}
-                    tower={tower} onUpdate={onUpdate} id={modalParams.fcId} />}
+                    towerName={tower} onUpdate={onUpdate} id={modalParams.fcId} />}
 
                 {modalParams.field === 'fan' && < ModalAirFan closeModal={closeModal}
-                    tower={tower} onUpdate={onUpdate} id={modalParams.fcId} />}
+                    towerName={tower} onUpdate={onUpdate} id={modalParams.fcId} />}
             </div>
         </section>
     </div>
