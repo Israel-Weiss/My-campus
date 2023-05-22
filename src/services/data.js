@@ -2,7 +2,7 @@
 const fcsDesA = {
     fl00: [
         'Lobby  A00',
-        'meeting room  A00',
+        'Meeting room  A00',
         'Office 1  A00 ',
         'Office 2  A00 ',
         'Office 3  A00 ',
@@ -16,7 +16,7 @@ const fcsDesA = {
     ],
     fl01: [
         'Lobby  A01',
-        'meeting room  A01',
+        'Meeting room  A01',
         'Openspace 1  A01',
         'Openspace 2  A01',
         'Cafeteria  A01 ',
@@ -29,7 +29,7 @@ const fcsDesA = {
     ],
     fl02: [
         'Lobby  A02',
-        'meeting room  A02',
+        'Meeting room  A02',
         'Openspace 1  A02',
         'Openspace 2  A02',
         'Office 1  A02 ',
@@ -43,7 +43,7 @@ const fcsDesA = {
     ],
     fl03: [
         'Lobby  A03',
-        'meeting room  A03',
+        'Meeting room  A03',
         'Workspace 1  A03',
         'Workspace 2  A03',
         'Workspace 3  A03',
@@ -57,7 +57,7 @@ const fcsDesA = {
     ],
     fl04: [
         'Lobby  A04',
-        'meeting room  A04',
+        'Meeting room  A04',
         'Workspace 1  A04',
         'Workspace 2  A04',
         'Openspace 1  A04',
@@ -71,7 +71,7 @@ const fcsDesA = {
     ],
     fl05: [
         'Lobby  A05',
-        'meeting room  A05',
+        'Meeting room  A05',
         'Workspace 1  A05',
         'Workspace 2  A05',
         'Workspace 3  A05',
@@ -85,7 +85,7 @@ const fcsDesA = {
     ],
     fl06: [
         'Lobby  A06',
-        'meeting room  A06',
+        'Meeting room  A06',
         'Workspace 1  A06',
         'Workspace 2  A06',
         'Workspace 3  A06',
@@ -98,7 +98,7 @@ const fcsDesA = {
     ],
     fl07: [
         'Lobby  A07',
-        'meeting room  A07',
+        'Meeting room  A07',
         'Openspace 1  A07',
         'Openspace 2  A07',
         'Office 1  A07 ',
@@ -111,7 +111,7 @@ const fcsDesA = {
     ],
     fl08: [
         'Lobby  A08',
-        'meeting room  A08',
+        'Meeting room  A08',
         'Openspace 1  A08',
         'Openspace 2  A08',
         'Office 1  A08 ',
@@ -125,7 +125,7 @@ const fcsDesA = {
     ],
     fl09: [
         'Lobby  A09',
-        'meeting room  A09',
+        'Meeting room  A09',
         'Workspace 1  A09',
         'Workspace 2  A09',
         'Workspace 3  A09',
@@ -140,7 +140,7 @@ const fcsDesA = {
     ],
     fl10: [
         'Lobby  A10',
-        'meeting room  A10',
+        'Meeting room  A10',
         'Office 1  A10 ',
         'Office 2  A10 ',
         'Office 3  A10 ',
@@ -154,7 +154,7 @@ const fcsDesA = {
     ],
     fl11: [
         'Lobby  A11',
-        'meeting room  A11',
+        'Meeting room  A11',
         'Openspace 1  A11',
         'Openspace 2  A11',
         'Cafeteria  A11 ',
@@ -167,7 +167,7 @@ const fcsDesA = {
     ],
     fl12: [
         'Lobby  A12',
-        'meeting room  A12',
+        'Meeting room  A12',
         'Openspace 1  A12',
         'Openspace 2  A12',
         'Office 1  A12 ',
@@ -181,7 +181,7 @@ const fcsDesA = {
     ],
     fl13: [
         'Lobby  A13',
-        'meeting room  A13',
+        'Meeting room  A13',
         'Workspace 1  A13',
         'Workspace 2  A13',
         'Workspace 3  A13',
@@ -195,7 +195,7 @@ const fcsDesA = {
     ],
     fl14: [
         'Lobby  A14',
-        'meeting room  A14',
+        'Meeting room  A14',
         'Workspace 1  A14',
         'Workspace 2  A14',
         'Openspace 1  A14',
@@ -209,7 +209,7 @@ const fcsDesA = {
     ],
     fl15: [
         'Lobby  A15',
-        'meeting room  A15',
+        'Meeting room  A15',
         'Workspace 1  A15',
         'Workspace 2  A15',
         'Workspace 3  A15',
@@ -223,7 +223,7 @@ const fcsDesA = {
     ],
     fl16: [
         'Lobby  A16',
-        'meeting room  A16',
+        'Meeting room  A16',
         'Workspace 1  A16',
         'Workspace 2  A16',
         'Workspace 3  A16',
@@ -236,7 +236,7 @@ const fcsDesA = {
     ],
     fl17: [
         'Lobby  A17',
-        'meeting room  A17',
+        'Meeting room  A17',
         'Openspace 1  A17',
         'Openspace 2  A17',
         'Office 1  A17 ',
@@ -249,7 +249,7 @@ const fcsDesA = {
     ],
     fl18: [
         'Lobby  A18',
-        'meeting room  A18',
+        'Meeting room  A18',
         'Openspace 1  A18',
         'Openspace 2  A18',
         'Office 1  A18 ',
@@ -263,7 +263,7 @@ const fcsDesA = {
     ],
     fl19: [
         'Lobby  A19',
-        'meeting room  A19',
+        'Meeting room  A19',
         'Workspace 1  A19',
         'Workspace 2  A19',
         'Workspace 3  A19',
@@ -278,7 +278,7 @@ const fcsDesA = {
     ],
     fl20: [
         'Lobby  A20',
-        'meeting room  A20',
+        'Meeting room  A20',
         'Office 1  A20 ',
         'Office 2  A20 ',
         'Office 3  A20 ',
@@ -292,7 +292,7 @@ const fcsDesA = {
     ],
     fl21: [
         'Lobby  A21',
-        'meeting room  A21',
+        'Meeting room  A21',
         'Openspace 1  A21',
         'Openspace 2  A21',
         'Cafeteria  A21 ',
@@ -305,7 +305,7 @@ const fcsDesA = {
     ],
     fl22: [
         'Lobby  A22',
-        'meeting room  A22',
+        'Meeting room  A22',
         'Openspace 1  A22',
         'Openspace 2  A22',
         'Office 1  A22 ',
@@ -319,7 +319,7 @@ const fcsDesA = {
     ],
     fl23: [
         'Lobby  A23',
-        'meeting room  A23',
+        'Meeting room  A23',
         'Workspace 1  A23',
         'Workspace 2  A23',
         'Workspace 3  A23',
@@ -333,7 +333,7 @@ const fcsDesA = {
     ],
     fl24: [
         'Lobby  A24',
-        'meeting room  A24',
+        'Meeting room  A24',
         'Workspace 1  A24',
         'Workspace 2  A24',
         'Openspace 1  A24',
@@ -347,7 +347,7 @@ const fcsDesA = {
     ],
     fl25: [
         'Lobby  A25',
-        'meeting room  A25',
+        'Meeting room  A25',
         'Workspace 1  A25',
         'Workspace 2  A25',
         'Workspace 3  A25',
@@ -361,7 +361,7 @@ const fcsDesA = {
     ],
     fl26: [
         'Lobby  A26',
-        'meeting room  A26',
+        'Meeting room  A26',
         'Workspace 1  A26',
         'Workspace 2  A26',
         'Workspace 3  A26',
@@ -374,7 +374,7 @@ const fcsDesA = {
     ],
     fl27: [
         'Lobby  A27',
-        'meeting room  A27',
+        'Meeting room  A27',
         'Openspace 1  A27',
         'Openspace 2  A27',
         'Office 1  A27 ',
@@ -387,7 +387,7 @@ const fcsDesA = {
     ],
     fl28: [
         'Lobby  A28',
-        'meeting room  A28',
+        'Meeting room  A28',
         'Openspace 1  A28',
         'Openspace 2  A28',
         'Office 1  A28 ',
@@ -401,7 +401,7 @@ const fcsDesA = {
     ],
     fl29: [
         'Lobby  A29',
-        'meeting room  A29',
+        'Meeting room  A29',
         'Workspace 1  A29',
         'Workspace 2  A29',
         'Workspace 3  A29',
@@ -416,7 +416,7 @@ const fcsDesA = {
     ],
     fl30: [
         'Lobby  A00',
-        'meeting room  A30',
+        'Meeting room  A30',
         'Office 1  A30 ',
         'Office 2  A30 ',
         'Office 3  A30 ',
@@ -430,7 +430,7 @@ const fcsDesA = {
     ],
     fl31: [
         'Lobby  A31',
-        'meeting room  A31',
+        'Meeting room  A31',
         'Openspace 1  A31',
         'Openspace 2  A31',
         'Cafeteria  A31 ',
@@ -443,7 +443,7 @@ const fcsDesA = {
     ],
     fl32: [
         'Lobby  A32',
-        'meeting room  A32',
+        'Meeting room  A32',
         'Openspace 1  A32',
         'Openspace 2  A32',
         'Office 1  A32 ',
@@ -457,7 +457,7 @@ const fcsDesA = {
     ],
     fl33: [
         'Lobby  A33',
-        'meeting room  A33',
+        'Meeting room  A33',
         'Workspace 1  A33',
         'Workspace 2  A33',
         'Workspace 3  A33',
@@ -471,7 +471,7 @@ const fcsDesA = {
     ],
     fl34: [
         'Lobby  A34',
-        'meeting room  A34',
+        'Meeting room  A34',
         'Workspace 1  A34',
         'Workspace 2  A34',
         'Openspace 1  A34',
@@ -485,7 +485,7 @@ const fcsDesA = {
     ],
     fl35: [
         'Lobby  A35',
-        'meeting room  A35',
+        'Meeting room  A35',
         'Workspace 1  A35',
         'Workspace 2  A35',
         'Workspace 3  A35',
@@ -499,7 +499,7 @@ const fcsDesA = {
     ],
     fl36: [
         'Lobby  A36',
-        'meeting room  A36',
+        'Meeting room  A36',
         'Workspace 1  A36',
         'Workspace 2  A36',
         'Workspace 3  A36',
@@ -512,7 +512,7 @@ const fcsDesA = {
     ],
     fl37: [
         'Lobby  A37',
-        'meeting room  A37',
+        'Meeting room  A37',
         'Openspace 1  A37',
         'Openspace 2  A37',
         'Office 1  A37 ',
@@ -525,7 +525,7 @@ const fcsDesA = {
     ],
     fl38: [
         'Lobby  A38',
-        'meeting room  A38',
+        'Meeting room  A38',
         'Openspace 1  A38',
         'Openspace 2  A38',
         'Office 1  A38 ',
@@ -539,7 +539,7 @@ const fcsDesA = {
     ],
     fl39: [
         'Lobby  A39',
-        'meeting room  A39',
+        'Meeting room  A39',
         'Workspace 1  A39',
         'Workspace 2  A39',
         'Workspace 3  A39',
@@ -557,7 +557,7 @@ const fcsDesA = {
 const fcsDesB = {
     fl00: [
         'Lobby  B00',
-        'meeting room  B00',
+        'Meeting room  B00',
         'Office 1  B00 ',
         'Office 2  B00 ',
         'Office 3  B00 ',
@@ -571,7 +571,7 @@ const fcsDesB = {
     ],
     fl01: [
         'Lobby  B01',
-        'meeting room  B01',
+        'Meeting room  B01',
         'Openspace 1  B01',
         'Openspace 2  B01',
         'Cafeteria  B01 ',
@@ -584,7 +584,7 @@ const fcsDesB = {
     ],
     fl02: [
         'Lobby  B02',
-        'meeting room  B02',
+        'Meeting room  B02',
         'Openspace 1  B02',
         'Openspace 2  B02',
         'Office 1  B02 ',
@@ -598,7 +598,7 @@ const fcsDesB = {
     ],
     fl03: [
         'Lobby  B03',
-        'meeting room  B03',
+        'Meeting room  B03',
         'Workspace 1  B03',
         'Workspace 2  B03',
         'Workspace 3  B03',
@@ -612,7 +612,7 @@ const fcsDesB = {
     ],
     fl04: [
         'Lobby  B04',
-        'meeting room  B04',
+        'Meeting room  B04',
         'Workspace 1  B04',
         'Workspace 2  B04',
         'Openspace 1  B04',
@@ -626,7 +626,7 @@ const fcsDesB = {
     ],
     fl05: [
         'Lobby  B05',
-        'meeting room  B05',
+        'Meeting room  B05',
         'Workspace 1  B05',
         'Workspace 2  B05',
         'Workspace 3  B05',
@@ -640,7 +640,7 @@ const fcsDesB = {
     ],
     fl06: [
         'Lobby  B06',
-        'meeting room  B06',
+        'Meeting room  B06',
         'Workspace 1  B06',
         'Workspace 2  B06',
         'Workspace 3  B06',
@@ -653,7 +653,7 @@ const fcsDesB = {
     ],
     fl07: [
         'Lobby  B07',
-        'meeting room  B07',
+        'Meeting room  B07',
         'Openspace 1  B07',
         'Openspace 2  B07',
         'Office 1  B07 ',
@@ -666,7 +666,7 @@ const fcsDesB = {
     ],
     fl08: [
         'Lobby  B08',
-        'meeting room  B08',
+        'Meeting room  B08',
         'Openspace 1  B08',
         'Openspace 2  B08',
         'Office 1  B08 ',
@@ -680,7 +680,7 @@ const fcsDesB = {
     ],
     fl09: [
         'Lobby  B09',
-        'meeting room  B09',
+        'Meeting room  B09',
         'Workspace 1  B09',
         'Workspace 2  B09',
         'Workspace 3  B09',
@@ -695,7 +695,7 @@ const fcsDesB = {
     ],
     fl10: [
         'Lobby  B10',
-        'meeting room  B10',
+        'Meeting room  B10',
         'Office 1  B10 ',
         'Office 2  B10 ',
         'Office 3  B10 ',
@@ -709,7 +709,7 @@ const fcsDesB = {
     ],
     fl11: [
         'Lobby  B11',
-        'meeting room  B11',
+        'Meeting room  B11',
         'Openspace 1  B11',
         'Openspace 2  B11',
         'Cafeteria  B11 ',
@@ -722,7 +722,7 @@ const fcsDesB = {
     ],
     fl12: [
         'Lobby  B12',
-        'meeting room  B12',
+        'Meeting room  B12',
         'Openspace 1  B12',
         'Openspace 2  B12',
         'Office 1  B12 ',
@@ -736,7 +736,7 @@ const fcsDesB = {
     ],
     fl13: [
         'Lobby  B13',
-        'meeting room  B13',
+        'Meeting room  B13',
         'Workspace 1  B13',
         'Workspace 2  B13',
         'Workspace 3  B13',
@@ -750,7 +750,7 @@ const fcsDesB = {
     ],
     fl14: [
         'Lobby  B14',
-        'meeting room  B14',
+        'Meeting room  B14',
         'Workspace 1  B14',
         'Workspace 2  B14',
         'Openspace 1  B14',
@@ -764,7 +764,7 @@ const fcsDesB = {
     ],
     fl15: [
         'Lobby  B15',
-        'meeting room  B15',
+        'Meeting room  B15',
         'Workspace 1  B15',
         'Workspace 2  B15',
         'Workspace 3  B15',
@@ -778,7 +778,7 @@ const fcsDesB = {
     ],
     fl16: [
         'Lobby  B16',
-        'meeting room  B16',
+        'Meeting room  B16',
         'Workspace 1  B16',
         'Workspace 2  B16',
         'Workspace 3  B16',
@@ -791,7 +791,7 @@ const fcsDesB = {
     ],
     fl17: [
         'Lobby  B17',
-        'meeting room  B17',
+        'Meeting room  B17',
         'Openspace 1  B17',
         'Openspace 2  B17',
         'Office 1  B17 ',
@@ -804,7 +804,7 @@ const fcsDesB = {
     ],
     fl18: [
         'Lobby  B18',
-        'meeting room  B18',
+        'Meeting room  B18',
         'Openspace 1  B18',
         'Openspace 2  B18',
         'Office 1  B18 ',
@@ -818,7 +818,7 @@ const fcsDesB = {
     ],
     fl19: [
         'Lobby  B19',
-        'meeting room  B19',
+        'Meeting room  B19',
         'Workspace 1  B19',
         'Workspace 2  B19',
         'Workspace 3  B19',
@@ -833,7 +833,7 @@ const fcsDesB = {
     ],
     fl20: [
         'Lobby  B20',
-        'meeting room  B20',
+        'Meeting room  B20',
         'Office 1  B20 ',
         'Office 2  B20 ',
         'Office 3  B20 ',
@@ -847,7 +847,7 @@ const fcsDesB = {
     ],
     fl21: [
         'Lobby  B21',
-        'meeting room  B21',
+        'Meeting room  B21',
         'Openspace 1  B21',
         'Openspace 2  B21',
         'Cafeteria  B21 ',
@@ -860,7 +860,7 @@ const fcsDesB = {
     ],
     fl22: [
         'Lobby  B22',
-        'meeting room  B22',
+        'Meeting room  B22',
         'Openspace 1  B22',
         'Openspace 2  B22',
         'Office 1  B22 ',
@@ -874,7 +874,7 @@ const fcsDesB = {
     ],
     fl23: [
         'Lobby  B23',
-        'meeting room  B23',
+        'Meeting room  B23',
         'Workspace 1  B23',
         'Workspace 2  B23',
         'Workspace 3  B23',
@@ -888,7 +888,7 @@ const fcsDesB = {
     ],
     fl24: [
         'Lobby  B24',
-        'meeting room  B24',
+        'Meeting room  B24',
         'Workspace 1  B24',
         'Workspace 2  B24',
         'Openspace 1  B24',
@@ -902,7 +902,7 @@ const fcsDesB = {
     ],
     fl25: [
         'Lobby  B25',
-        'meeting room  B25',
+        'Meeting room  B25',
         'Workspace 1  B25',
         'Workspace 2  B25',
         'Workspace 3  B25',
@@ -916,7 +916,7 @@ const fcsDesB = {
     ],
     fl26: [
         'Lobby  B26',
-        'meeting room  B26',
+        'Meeting room  B26',
         'Workspace 1  B26',
         'Workspace 2  B26',
         'Workspace 3  B26',
@@ -929,7 +929,7 @@ const fcsDesB = {
     ],
     fl27: [
         'Lobby  B27',
-        'meeting room  B27',
+        'Meeting room  B27',
         'Openspace 1  B27',
         'Openspace 2  B27',
         'Office 1  B27 ',
@@ -942,7 +942,7 @@ const fcsDesB = {
     ],
     fl28: [
         'Lobby  B28',
-        'meeting room  B28',
+        'Meeting room  B28',
         'Openspace 1  B28',
         'Openspace 2  B28',
         'Office 1  B28 ',
@@ -956,7 +956,7 @@ const fcsDesB = {
     ],
     fl29: [
         'Lobby  B29',
-        'meeting room  B29',
+        'Meeting room  B29',
         'Workspace 1  B29',
         'Workspace 2  B29',
         'Workspace 3  B29',
@@ -971,7 +971,7 @@ const fcsDesB = {
     ],
     fl30: [
         'Lobby  B00',
-        'meeting room  B30',
+        'Meeting room  B30',
         'Office 1  B30 ',
         'Office 2  B30 ',
         'Office 3  B30 ',
@@ -985,7 +985,7 @@ const fcsDesB = {
     ],
     fl31: [
         'Lobby  B31',
-        'meeting room  B31',
+        'Meeting room  B31',
         'Openspace 1  B31',
         'Openspace 2  B31',
         'Cafeteria  B31 ',
@@ -998,7 +998,7 @@ const fcsDesB = {
     ],
     fl32: [
         'Lobby  B32',
-        'meeting room  B32',
+        'Meeting room  B32',
         'Openspace 1  B32',
         'Openspace 2  B32',
         'Office 1  B32 ',
@@ -1012,7 +1012,7 @@ const fcsDesB = {
     ],
     fl33: [
         'Lobby  B33',
-        'meeting room  B33',
+        'Meeting room  B33',
         'Workspace 1  B33',
         'Workspace 2  B33',
         'Workspace 3  B33',
@@ -1026,7 +1026,7 @@ const fcsDesB = {
     ],
     fl34: [
         'Lobby  B34',
-        'meeting room  B34',
+        'Meeting room  B34',
         'Workspace 1  B34',
         'Workspace 2  B34',
         'Openspace 1  B34',
@@ -1040,7 +1040,7 @@ const fcsDesB = {
     ],
     fl35: [
         'Lobby  B35',
-        'meeting room  B35',
+        'Meeting room  B35',
         'Workspace 1  B35',
         'Workspace 2  B35',
         'Workspace 3  B35',
@@ -1054,7 +1054,7 @@ const fcsDesB = {
     ],
     fl36: [
         'Lobby  B36',
-        'meeting room  B36',
+        'Meeting room  B36',
         'Workspace 1  B36',
         'Workspace 2  B36',
         'Workspace 3  B36',
@@ -1067,7 +1067,7 @@ const fcsDesB = {
     ],
     fl37: [
         'Lobby  B37',
-        'meeting room  B37',
+        'Meeting room  B37',
         'Openspace 1  B37',
         'Openspace 2  B37',
         'Office 1  B37 ',
@@ -1080,7 +1080,7 @@ const fcsDesB = {
     ],
     fl38: [
         'Lobby  B38',
-        'meeting room  B38',
+        'Meeting room  B38',
         'Openspace 1  B38',
         'Openspace 2  B38',
         'Office 1  B38 ',
@@ -1094,7 +1094,7 @@ const fcsDesB = {
     ],
     fl39: [
         'Lobby  B39',
-        'meeting room  B39',
+        'Meeting room  B39',
         'Workspace 1  B39',
         'Workspace 2  B39',
         'Workspace 3  B39',
@@ -1112,7 +1112,7 @@ const fcsDesB = {
 const fcsDesC = {
     fl00: [
         'Lobby  C00',
-        'meeting room  C00',
+        'Meeting room  C00',
         'Office 1  C00 ',
         'Office 2  C00 ',
         'Office 3  C00 ',
@@ -1126,7 +1126,7 @@ const fcsDesC = {
     ],
     fl01: [
         'Lobby  C01',
-        'meeting room  C01',
+        'Meeting room  C01',
         'Openspace 1  C01',
         'Openspace 2  C01',
         'Cafeteria  C01 ',
@@ -1139,7 +1139,7 @@ const fcsDesC = {
     ],
     fl02: [
         'Lobby  C02',
-        'meeting room  C02',
+        'Meeting room  C02',
         'Openspace 1  C02',
         'Openspace 2  C02',
         'Office 1  C02 ',
@@ -1153,7 +1153,7 @@ const fcsDesC = {
     ],
     fl03: [
         'Lobby  C03',
-        'meeting room  C03',
+        'Meeting room  C03',
         'Workspace 1  C03',
         'Workspace 2  C03',
         'Workspace 3  C03',
@@ -1167,7 +1167,7 @@ const fcsDesC = {
     ],
     fl04: [
         'Lobby  C04',
-        'meeting room  C04',
+        'Meeting room  C04',
         'Workspace 1  C04',
         'Workspace 2  C04',
         'Openspace 1  C04',
@@ -1181,7 +1181,7 @@ const fcsDesC = {
     ],
     fl05: [
         'Lobby  C05',
-        'meeting room  C05',
+        'Meeting room  C05',
         'Workspace 1  C05',
         'Workspace 2  C05',
         'Workspace 3  C05',
@@ -1195,7 +1195,7 @@ const fcsDesC = {
     ],
     fl06: [
         'Lobby  C06',
-        'meeting room  C06',
+        'Meeting room  C06',
         'Workspace 1  C06',
         'Workspace 2  C06',
         'Workspace 3  C06',
@@ -1208,7 +1208,7 @@ const fcsDesC = {
     ],
     fl07: [
         'Lobby  C07',
-        'meeting room  C07',
+        'Meeting room  C07',
         'Openspace 1  C07',
         'Openspace 2  C07',
         'Office 1  C07 ',
@@ -1221,7 +1221,7 @@ const fcsDesC = {
     ],
     fl08: [
         'Lobby  C08',
-        'meeting room  C08',
+        'Meeting room  C08',
         'Openspace 1  C08',
         'Openspace 2  C08',
         'Office 1  C08 ',
@@ -1235,7 +1235,7 @@ const fcsDesC = {
     ],
     fl09: [
         'Lobby  C09',
-        'meeting room  C09',
+        'Meeting room  C09',
         'Workspace 1  C09',
         'Workspace 2  C09',
         'Workspace 3  C09',
@@ -1250,7 +1250,7 @@ const fcsDesC = {
     ],
     fl10: [
         'Lobby  C10',
-        'meeting room  C10',
+        'Meeting room  C10',
         'Office 1  C10 ',
         'Office 2  C10 ',
         'Office 3  C10 ',
@@ -1264,7 +1264,7 @@ const fcsDesC = {
     ],
     fl11: [
         'Lobby  C11',
-        'meeting room  C11',
+        'Meeting room  C11',
         'Openspace 1  C11',
         'Openspace 2  C11',
         'Cafeteria  C11 ',
@@ -1277,7 +1277,7 @@ const fcsDesC = {
     ],
     fl12: [
         'Lobby  C12',
-        'meeting room  C12',
+        'Meeting room  C12',
         'Openspace 1  C12',
         'Openspace 2  C12',
         'Office 1  C12 ',
@@ -1291,7 +1291,7 @@ const fcsDesC = {
     ],
     fl13: [
         'Lobby  C13',
-        'meeting room  C13',
+        'Meeting room  C13',
         'Workspace 1  C13',
         'Workspace 2  C13',
         'Workspace 3  C13',
@@ -1305,7 +1305,7 @@ const fcsDesC = {
     ],
     fl14: [
         'Lobby  C14',
-        'meeting room  C14',
+        'Meeting room  C14',
         'Workspace 1  C14',
         'Workspace 2  C14',
         'Openspace 1  C14',
@@ -1319,7 +1319,7 @@ const fcsDesC = {
     ],
     fl15: [
         'Lobby  C15',
-        'meeting room  C15',
+        'Meeting room  C15',
         'Workspace 1  C15',
         'Workspace 2  C15',
         'Workspace 3  C15',
@@ -1333,7 +1333,7 @@ const fcsDesC = {
     ],
     fl16: [
         'Lobby  C16',
-        'meeting room  C16',
+        'Meeting room  C16',
         'Workspace 1  C16',
         'Workspace 2  C16',
         'Workspace 3  C16',
@@ -1346,7 +1346,7 @@ const fcsDesC = {
     ],
     fl17: [
         'Lobby  C17',
-        'meeting room  C17',
+        'Meeting room  C17',
         'Openspace 1  C17',
         'Openspace 2  C17',
         'Office 1  C17 ',
@@ -1359,7 +1359,7 @@ const fcsDesC = {
     ],
     fl18: [
         'Lobby  C18',
-        'meeting room  C18',
+        'Meeting room  C18',
         'Openspace 1  C18',
         'Openspace 2  C18',
         'Office 1  C18 ',
@@ -1373,7 +1373,7 @@ const fcsDesC = {
     ],
     fl19: [
         'Lobby  C19',
-        'meeting room  C19',
+        'Meeting room  C19',
         'Workspace 1  C19',
         'Workspace 2  C19',
         'Workspace 3  C19',
@@ -1388,7 +1388,7 @@ const fcsDesC = {
     ],
     fl20: [
         'Lobby  C20',
-        'meeting room  C20',
+        'Meeting room  C20',
         'Office 1  C20 ',
         'Office 2  C20 ',
         'Office 3  C20 ',
@@ -1402,7 +1402,7 @@ const fcsDesC = {
     ],
     fl21: [
         'Lobby  C21',
-        'meeting room  C21',
+        'Meeting room  C21',
         'Openspace 1  C21',
         'Openspace 2  C21',
         'Cafeteria  C21 ',
@@ -1415,7 +1415,7 @@ const fcsDesC = {
     ],
     fl22: [
         'Lobby  C22',
-        'meeting room  C22',
+        'Meeting room  C22',
         'Openspace 1  C22',
         'Openspace 2  C22',
         'Office 1  C22 ',
@@ -1429,7 +1429,7 @@ const fcsDesC = {
     ],
     fl23: [
         'Lobby  C23',
-        'meeting room  C23',
+        'Meeting room  C23',
         'Workspace 1  C23',
         'Workspace 2  C23',
         'Workspace 3  C23',
@@ -1443,7 +1443,7 @@ const fcsDesC = {
     ],
     fl24: [
         'Lobby  C24',
-        'meeting room  C24',
+        'Meeting room  C24',
         'Workspace 1  C24',
         'Workspace 2  C24',
         'Openspace 1  C24',
@@ -1457,7 +1457,7 @@ const fcsDesC = {
     ],
     fl25: [
         'Lobby  C25',
-        'meeting room  C25',
+        'Meeting room  C25',
         'Workspace 1  C25',
         'Workspace 2  C25',
         'Workspace 3  C25',
@@ -1471,7 +1471,7 @@ const fcsDesC = {
     ],
     fl26: [
         'Lobby  C26',
-        'meeting room  C26',
+        'Meeting room  C26',
         'Workspace 1  C26',
         'Workspace 2  C26',
         'Workspace 3  C26',
@@ -1484,7 +1484,7 @@ const fcsDesC = {
     ],
     fl27: [
         'Lobby  C27',
-        'meeting room  C27',
+        'Meeting room  C27',
         'Openspace 1  C27',
         'Openspace 2  C27',
         'Office 1  C27 ',
@@ -1497,7 +1497,7 @@ const fcsDesC = {
     ],
     fl28: [
         'Lobby  C28',
-        'meeting room  C28',
+        'Meeting room  C28',
         'Openspace 1  C28',
         'Openspace 2  C28',
         'Office 1  C28 ',
@@ -1511,7 +1511,7 @@ const fcsDesC = {
     ],
     fl29: [
         'Lobby  C29',
-        'meeting room  C29',
+        'Meeting room  C29',
         'Workspace 1  C29',
         'Workspace 2  C29',
         'Workspace 3  C29',
@@ -1526,7 +1526,7 @@ const fcsDesC = {
     ],
     fl30: [
         'Lobby  C00',
-        'meeting room  C30',
+        'Meeting room  C30',
         'Office 1  C30 ',
         'Office 2  C30 ',
         'Office 3  C30 ',
@@ -1540,7 +1540,7 @@ const fcsDesC = {
     ],
     fl31: [
         'Lobby  C31',
-        'meeting room  C31',
+        'Meeting room  C31',
         'Openspace 1  C31',
         'Openspace 2  C31',
         'Cafeteria  C31 ',
@@ -1553,7 +1553,7 @@ const fcsDesC = {
     ],
     fl32: [
         'Lobby  C32',
-        'meeting room  C32',
+        'Meeting room  C32',
         'Openspace 1  C32',
         'Openspace 2  C32',
         'Office 1  C32 ',
@@ -1567,7 +1567,7 @@ const fcsDesC = {
     ],
     fl33: [
         'Lobby  C33',
-        'meeting room  C33',
+        'Meeting room  C33',
         'Workspace 1  C33',
         'Workspace 2  C33',
         'Workspace 3  C33',
@@ -1581,7 +1581,7 @@ const fcsDesC = {
     ],
     fl34: [
         'Lobby  C34',
-        'meeting room  C34',
+        'Meeting room  C34',
         'Workspace 1  C34',
         'Workspace 2  C34',
         'Openspace 1  C34',
@@ -1595,7 +1595,7 @@ const fcsDesC = {
     ],
     fl35: [
         'Lobby  C35',
-        'meeting room  C35',
+        'Meeting room  C35',
         'Workspace 1  C35',
         'Workspace 2  C35',
         'Workspace 3  C35',
@@ -1609,7 +1609,7 @@ const fcsDesC = {
     ],
     fl36: [
         'Lobby  C36',
-        'meeting room  C36',
+        'Meeting room  C36',
         'Workspace 1  C36',
         'Workspace 2  C36',
         'Workspace 3  C36',
@@ -1622,7 +1622,7 @@ const fcsDesC = {
     ],
     fl37: [
         'Lobby  C37',
-        'meeting room  C37',
+        'Meeting room  C37',
         'Openspace 1  C37',
         'Openspace 2  C37',
         'Office 1  C37 ',
@@ -1635,7 +1635,7 @@ const fcsDesC = {
     ],
     fl38: [
         'Lobby  C38',
-        'meeting room  C38',
+        'Meeting room  C38',
         'Openspace 1  C38',
         'Openspace 2  C38',
         'Office 1  C38 ',
@@ -1649,7 +1649,7 @@ const fcsDesC = {
     ],
     fl39: [
         'Lobby  C39',
-        'meeting room  C39',
+        'Meeting room  C39',
         'Workspace 1  C39',
         'Workspace 2  C39',
         'Workspace 3  C39',
@@ -1667,7 +1667,7 @@ const fcsDesC = {
 const fcsDesD = {
     fl00: [
         'Lobby  D00',
-        'meeting room  D00',
+        'Meeting room  D00',
         'Office 1  D00 ',
         'Office 2  D00 ',
         'Office 3  D00 ',
@@ -1681,7 +1681,7 @@ const fcsDesD = {
     ],
     fl01: [
         'Lobby  D01',
-        'meeting room  D01',
+        'Meeting room  D01',
         'Openspace 1  D01',
         'Openspace 2  D01',
         'Cafeteria  D01 ',
@@ -1694,7 +1694,7 @@ const fcsDesD = {
     ],
     fl02: [
         'Lobby  D02',
-        'meeting room  D02',
+        'Meeting room  D02',
         'Openspace 1  D02',
         'Openspace 2  D02',
         'Office 1  D02 ',
@@ -1708,7 +1708,7 @@ const fcsDesD = {
     ],
     fl03: [
         'Lobby  D03',
-        'meeting room  D03',
+        'Meeting room  D03',
         'Workspace 1  D03',
         'Workspace 2  D03',
         'Workspace 3  D03',
@@ -1722,7 +1722,7 @@ const fcsDesD = {
     ],
     fl04: [
         'Lobby  D04',
-        'meeting room  D04',
+        'Meeting room  D04',
         'Workspace 1  D04',
         'Workspace 2  D04',
         'Openspace 1  D04',
@@ -1736,7 +1736,7 @@ const fcsDesD = {
     ],
     fl05: [
         'Lobby  D05',
-        'meeting room  D05',
+        'Meeting room  D05',
         'Workspace 1  D05',
         'Workspace 2  D05',
         'Workspace 3  D05',
@@ -1750,7 +1750,7 @@ const fcsDesD = {
     ],
     fl06: [
         'Lobby  D06',
-        'meeting room  D06',
+        'Meeting room  D06',
         'Workspace 1  D06',
         'Workspace 2  D06',
         'Workspace 3  D06',
@@ -1763,7 +1763,7 @@ const fcsDesD = {
     ],
     fl07: [
         'Lobby  D07',
-        'meeting room  D07',
+        'Meeting room  D07',
         'Openspace 1  D07',
         'Openspace 2  D07',
         'Office 1  D07 ',
@@ -1776,7 +1776,7 @@ const fcsDesD = {
     ],
     fl08: [
         'Lobby  D08',
-        'meeting room  D08',
+        'Meeting room  D08',
         'Openspace 1  D08',
         'Openspace 2  D08',
         'Office 1  D08 ',
@@ -1790,7 +1790,7 @@ const fcsDesD = {
     ],
     fl09: [
         'Lobby  D09',
-        'meeting room  D09',
+        'Meeting room  D09',
         'Workspace 1  D09',
         'Workspace 2  D09',
         'Workspace 3  D09',
@@ -1805,7 +1805,7 @@ const fcsDesD = {
     ],
     fl10: [
         'Lobby  D10',
-        'meeting room  D10',
+        'Meeting room  D10',
         'Office 1  D10 ',
         'Office 2  D10 ',
         'Office 3  D10 ',
@@ -1819,7 +1819,7 @@ const fcsDesD = {
     ],
     fl11: [
         'Lobby  D11',
-        'meeting room  D11',
+        'Meeting room  D11',
         'Openspace 1  D11',
         'Openspace 2  D11',
         'Cafeteria  D11 ',
@@ -1832,7 +1832,7 @@ const fcsDesD = {
     ],
     fl12: [
         'Lobby  D12',
-        'meeting room  D12',
+        'Meeting room  D12',
         'Openspace 1  D12',
         'Openspace 2  D12',
         'Office 1  D12 ',
@@ -1846,7 +1846,7 @@ const fcsDesD = {
     ],
     fl13: [
         'Lobby  D13',
-        'meeting room  D13',
+        'Meeting room  D13',
         'Workspace 1  D13',
         'Workspace 2  D13',
         'Workspace 3  D13',
@@ -1860,7 +1860,7 @@ const fcsDesD = {
     ],
     fl14: [
         'Lobby  D14',
-        'meeting room  D14',
+        'Meeting room  D14',
         'Workspace 1  D14',
         'Workspace 2  D14',
         'Openspace 1  D14',
@@ -1874,7 +1874,7 @@ const fcsDesD = {
     ],
     fl15: [
         'Lobby  D15',
-        'meeting room  D15',
+        'Meeting room  D15',
         'Workspace 1  D15',
         'Workspace 2  D15',
         'Workspace 3  D15',
@@ -1888,7 +1888,7 @@ const fcsDesD = {
     ],
     fl16: [
         'Lobby  D16',
-        'meeting room  D16',
+        'Meeting room  D16',
         'Workspace 1  D16',
         'Workspace 2  D16',
         'Workspace 3  D16',
@@ -1901,7 +1901,7 @@ const fcsDesD = {
     ],
     fl17: [
         'Lobby  D17',
-        'meeting room  D17',
+        'Meeting room  D17',
         'Openspace 1  D17',
         'Openspace 2  D17',
         'Office 1  D17 ',
@@ -1914,7 +1914,7 @@ const fcsDesD = {
     ],
     fl18: [
         'Lobby  D18',
-        'meeting room  D18',
+        'Meeting room  D18',
         'Openspace 1  D18',
         'Openspace 2  D18',
         'Office 1  D18 ',
@@ -1928,7 +1928,7 @@ const fcsDesD = {
     ],
     fl19: [
         'Lobby  D19',
-        'meeting room  D19',
+        'Meeting room  D19',
         'Workspace 1  D19',
         'Workspace 2  D19',
         'Workspace 3  D19',
@@ -1943,7 +1943,7 @@ const fcsDesD = {
     ],
     fl20: [
         'Lobby  D20',
-        'meeting room  D20',
+        'Meeting room  D20',
         'Office 1  D20 ',
         'Office 2  D20 ',
         'Office 3  D20 ',
@@ -1957,7 +1957,7 @@ const fcsDesD = {
     ],
     fl21: [
         'Lobby  D21',
-        'meeting room  D21',
+        'Meeting room  D21',
         'Openspace 1  D21',
         'Openspace 2  D21',
         'Cafeteria  D21 ',
@@ -1970,7 +1970,7 @@ const fcsDesD = {
     ],
     fl22: [
         'Lobby  D22',
-        'meeting room  D22',
+        'Meeting room  D22',
         'Openspace 1  D22',
         'Openspace 2  D22',
         'Office 1  D22 ',
@@ -1984,7 +1984,7 @@ const fcsDesD = {
     ],
     fl23: [
         'Lobby  D23',
-        'meeting room  D23',
+        'Meeting room  D23',
         'Workspace 1  D23',
         'Workspace 2  D23',
         'Workspace 3  D23',
@@ -1998,7 +1998,7 @@ const fcsDesD = {
     ],
     fl24: [
         'Lobby  D24',
-        'meeting room  D24',
+        'Meeting room  D24',
         'Workspace 1  D24',
         'Workspace 2  D24',
         'Openspace 1  D24',
@@ -2012,7 +2012,7 @@ const fcsDesD = {
     ],
     fl25: [
         'Lobby  D25',
-        'meeting room  D25',
+        'Meeting room  D25',
         'Workspace 1  D25',
         'Workspace 2  D25',
         'Workspace 3  D25',
@@ -2026,7 +2026,7 @@ const fcsDesD = {
     ],
     fl26: [
         'Lobby  D26',
-        'meeting room  D26',
+        'Meeting room  D26',
         'Workspace 1  D26',
         'Workspace 2  D26',
         'Workspace 3  D26',
@@ -2039,7 +2039,7 @@ const fcsDesD = {
     ],
     fl27: [
         'Lobby  D27',
-        'meeting room  D27',
+        'Meeting room  D27',
         'Openspace 1  D27',
         'Openspace 2  D27',
         'Office 1  D27 ',
@@ -2052,7 +2052,7 @@ const fcsDesD = {
     ],
     fl28: [
         'Lobby  D28',
-        'meeting room  D28',
+        'Meeting room  D28',
         'Openspace 1  D28',
         'Openspace 2  D28',
         'Office 1  D28 ',
@@ -2066,7 +2066,7 @@ const fcsDesD = {
     ],
     fl29: [
         'Lobby  D29',
-        'meeting room  D29',
+        'Meeting room  D29',
         'Workspace 1  D29',
         'Workspace 2  D29',
         'Workspace 3  D29',
@@ -2081,7 +2081,7 @@ const fcsDesD = {
     ],
     fl30: [
         'Lobby  D00',
-        'meeting room  D30',
+        'Meeting room  D30',
         'Office 1  D30 ',
         'Office 2  D30 ',
         'Office 3  D30 ',
@@ -2095,7 +2095,7 @@ const fcsDesD = {
     ],
     fl31: [
         'Lobby  D31',
-        'meeting room  D31',
+        'Meeting room  D31',
         'Openspace 1  D31',
         'Openspace 2  D31',
         'Cafeteria  D31 ',
@@ -2108,7 +2108,7 @@ const fcsDesD = {
     ],
     fl32: [
         'Lobby  D32',
-        'meeting room  D32',
+        'Meeting room  D32',
         'Openspace 1  D32',
         'Openspace 2  D32',
         'Office 1  D32 ',
@@ -2122,7 +2122,7 @@ const fcsDesD = {
     ],
     fl33: [
         'Lobby  D33',
-        'meeting room  D33',
+        'Meeting room  D33',
         'Workspace 1  D33',
         'Workspace 2  D33',
         'Workspace 3  D33',
@@ -2136,7 +2136,7 @@ const fcsDesD = {
     ],
     fl34: [
         'Lobby  D34',
-        'meeting room  D34',
+        'Meeting room  D34',
         'Workspace 1  D34',
         'Workspace 2  D34',
         'Openspace 1  D34',
@@ -2150,7 +2150,7 @@ const fcsDesD = {
     ],
     fl35: [
         'Lobby  D35',
-        'meeting room  D35',
+        'Meeting room  D35',
         'Workspace 1  D35',
         'Workspace 2  D35',
         'Workspace 3  D35',
@@ -2164,7 +2164,7 @@ const fcsDesD = {
     ],
     fl36: [
         'Lobby  D36',
-        'meeting room  D36',
+        'Meeting room  D36',
         'Workspace 1  D36',
         'Workspace 2  D36',
         'Workspace 3  D36',
@@ -2177,7 +2177,7 @@ const fcsDesD = {
     ],
     fl37: [
         'Lobby  D37',
-        'meeting room  D37',
+        'Meeting room  D37',
         'Openspace 1  D37',
         'Openspace 2  D37',
         'Office 1  D37 ',
@@ -2190,7 +2190,7 @@ const fcsDesD = {
     ],
     fl38: [
         'Lobby  D38',
-        'meeting room  D38',
+        'Meeting room  D38',
         'Openspace 1  D38',
         'Openspace 2  D38',
         'Office 1  D38 ',
@@ -2204,7 +2204,7 @@ const fcsDesD = {
     ],
     fl39: [
         'Lobby  D39',
-        'meeting room  D39',
+        'Meeting room  D39',
         'Workspace 1  D39',
         'Workspace 2  D39',
         'Workspace 3  D39',

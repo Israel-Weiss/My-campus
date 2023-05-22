@@ -73,7 +73,7 @@ export function Header() {
             
             <Link to={'event'}><button className="button events">
                 <img src={alarm} className="img" alt="" />
-                <p>Events summarie</p>
+                <p>Events summary</p>
             </button></Link>
 
             <button className="button menu-login" onClick={toggleLogin} >

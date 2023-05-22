@@ -29,7 +29,7 @@ export function Main() {
                     </button></Link>
 
                     <Link to={'event'}><button className="button events">
-                        <div className='text'>Events summarie</div>
+                        <div className='text'>Events summary</div>
                         <img src={alarm} className="img" alt="" />
                     </button></Link>
                 </div>

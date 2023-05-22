@@ -36,7 +36,7 @@ export function AirList({ tower, floor, outFloor, inFloor }) {
 
     const openModal = (fcId, field, val = null, max = null) => {
         if (loggedInUser.authorization < 1) return alert(`Hellow ${loggedInUser.name}! 
-        Your permission does not allow this action. 
+        You are not authorized to do this action. 
         Please login with an authorized user. 
         (Try login with - "name: operator, password: 2222" )`)
         setModalParams({ fcId, field, val, max })
@@ -73,11 +73,11 @@ export function AirList({ tower, floor, outFloor, inFloor }) {
                     <div className="num">Num.</div>
                     <div className="description">Description</div>
                     <div className="status">Status</div>
-                    <div className="comand">COM</div>
-                    <div className="temp">TEMP</div>
+                    <div className="comand">Com</div>
+                    <div className="temp">Temp</div>
                     <div className="sp-temp">SP Temp</div>
-                    <div className="mode">MODE</div>
-                    <div className="fan">FAN</div>
+                    <div className="mode">Mode</div>
+                    <div className="fan">Fan</div>
                     <div className="interval-to-alarm">Deviation<br />to alarm</div>
                     <div className="time-to-alarm">Time<br />to alarm</div>
                     <div className="alarm">Alarm</div>
