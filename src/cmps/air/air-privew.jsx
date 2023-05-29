@@ -7,21 +7,26 @@ export function AirPrivew({ fc, openModal }) {
 
             <div className="display fc-num">{fc.num}</div>
             <div className="display fc-description">{fc.description}</div>
-            <div className="display fc-status">{status[fc.status]}</div>
+            <div className="display fc-status">
+                <p className={status[fc.status].class}>{status[fc.status].txt}</p>
+            </div>
 
-            <button className="button fc-comand" onClick={() =>
-                openModal(fc._id, 'com')}>{com[fc.comand]}</button>
+            <button className="button fc-comand" onClick={() => openModal(fc._id, 'com')}>
+                <p className={com[fc.comand].class}>{com[fc.comand].txt}</p>
+            </button>
 
             <div className="display fc-temp">{fc.temp} ℃</div>
 
             <button className="button fc-sp-temp" onClick={() =>
                 openModal(fc._id, 'temp-sp', fc.spTemp, 50)}>{fc.spTemp} ℃</button>
 
-            <button className="button fc-mode" onClick={() =>
-                openModal(fc._id, 'mode')}>{mode[fc.mode]}</button>
+            <button className="button fc-mode" onClick={() => openModal(fc._id, 'mode')}>
+                <p className={mode[fc.mode].class}>{mode[fc.mode].txt}</p>
+            </button>
 
-            <button className="button fc-fan" onClick={() =>
-                openModal(fc._id, 'fan')}>{fan[fc.fan]}</button>
+            <button className="button fc-fan" onClick={() => openModal(fc._id, 'fan')}>
+                <p className={fan[fc.fan].class}>{fan[fc.fan].txt}</p>
+            </button>
 
             <button className="button fc-interval-to-alarm" onClick={() =>
                 openModal(fc._id, 'interval-alarm', fc.intervalToAlarm, 20)}>{fc.intervalToAlarm} ℃</button>
@@ -29,7 +34,9 @@ export function AirPrivew({ fc, openModal }) {
             <button className="button fc-time-to-alarm" onClick={() =>
                 openModal(fc._id, 'time-alarm', fc.timeToAlarm, 999)}>{fc.timeToAlarm} sec</button>
 
-            <div className="display fc-alarm">{alarm[fc.alarm]}</div>
+            <div className="display fc-alarm">
+                <p className={alarm[fc.alarm].class}>{alarm[fc.alarm].txt}</p>
+            </div>
             <div>{animation[fc.status]}</div>
         </div>
     </div>

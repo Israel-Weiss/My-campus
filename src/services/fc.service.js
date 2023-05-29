@@ -6,6 +6,7 @@ import { fcsDesA, fcsDesB, fcsDesC, fcsDesD } from "./data"
 export {
     getFcsList,
     update,
+    getFlnums
 }
 
 const STORAGE_KEY = 'fcsList'
@@ -120,4 +121,13 @@ function getRandomIntInclusive(min, max) {
     min = Math.ceil(min)
     max = Math.floor(max)
     return Math.floor(Math.random() * (max - min + 1) + min)
+}
+
+function getFlnums(lengt) {
+    const flNums = []
+    for (var i = 0; i < lengt; i++) {
+        const strNum = '' + i
+        flNums.push(strNum.padStart(2, '0'))
+    }
+    return flNums
 }

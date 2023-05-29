@@ -21,7 +21,7 @@ export function Header() {
         loadDefaultUser()
     }, [])
 
-    const { loggedInUser } = useSelector(state => state.userModule)
+    const loggedInUser = useSelector(state => state.userModule.loggedInUser)
 
     const dispach = useDispatch()
 

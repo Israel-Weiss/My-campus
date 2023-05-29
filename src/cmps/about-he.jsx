@@ -1,4 +1,4 @@
-export function AboutHe( {language} ) {
+export function AboutHe({ language }) {
     return <section dir="rtl" >
         <section className='title'>
             <button className="button language" onClick={() => language(false)}>English</button>
@@ -16,8 +16,8 @@ export function AboutHe( {language} ) {
             </div>
             <div className="text-continer">
                 <p className="subtitle">כללי</p>
-                <p className="txt">אפליקציית מערכת הבקרה, הינה הדמיה של מתחם בן ארבעה מגדלים כל אחד בן ארבעים קומות,
-                    <br /> בכל קומה בקרת אקלים עבור האזורים והחדרים השונים.</p>
+                <p className="txt">אפליקציית מערכת הבקרה, הינה הדמיה של מתחם עם ארבעה מגדלים, כל אחד בן ארבעים קומות,
+                    <br /> בכל קומה בקרת אקלים ושליטה על מיזוג האוויר עבור האזורים והחדרים השונים.</p>
 
                 <p className="subtitle">משתמשים</p>
                 <div className="txt">המערכת מסופקת עם שלושה משתמשי ברירת מחדל:
@@ -37,9 +37,9 @@ export function AboutHe( {language} ) {
                     </ul>
                 </div>
 
-                <p className="subtitle">בקרת חדרים:</p>
-                <p className="txt">מטרת המערכת לאפשר למתפעל לשלוט דרך האפליקציה על האקלים והפעלת המיזוג בכל חדר,
-                    בכל קומה, בכל אחד מהבניינים במתחם.
+                <p className="subtitle">בקרת חדרים</p>
+                <p className="txt">מטרת המערכת לאפשר למתפעל לשלוט דרך האפליקציה על האקלים והפעלת המיזוג
+                    בכל חדר, בכל קומה, בכל אחד מהבניינים במתחם.
                     <br />
                     <br />לכל יחידת מיזוג יש שורת תפעול המציגה את הטמפרטורה בחדר ואת סטטוס הפעולה.
                     בשורת התפעול ניתן לבצע: הפעלה וכיבוי של היחידה,

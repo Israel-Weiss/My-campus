@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { useSelector } from "react-redux"
 import { AirPrivew } from "./air-privew"
 import { ModalAirMode } from "./modal-air-mode"
@@ -8,30 +8,33 @@ import { ModalPrompt } from "./modal-prompt"
 import { getFcsList, update } from "../../services/fc.service"
 import { startTempInterval } from "../../services/fc.temp.service"
 
-let render = false
 
-export function AirList({ tower, floor, exitTheFloor, enterTheFloor }) {
+export function AirList({ tower, floor, exitFloor, enterFloor }) {
+
+    const intervalId = useRef()
 
     useEffect(() => {
         loadFcs()
-    })
-
-    useEffect(() => {
         startTempInterval()
+        startLoadInterval()
+        return () => clearInterval(intervalId.current)
     }, [])
+
+    const startLoadInterval = () => {
+        intervalId.current = setInterval(() => {
+            loadFcs()
+        }, 5 * 1000)
+    }
 
     const [fcsList, setFcs] = useState()
 
     const loadFcs = async () => {
-        render = !render
-        if (!render) {
-            return
-        }
         setFcs(await getFcsList(tower, floor))
     }
 
-    const { loggedInUser } = useSelector(state => state.userModule)
+    const loggedInUser = useSelector(state => state.userModule.loggedInUser)
 
+    // const [modalParams, setModalParams] = useState({ fcId: '', field: '', val: null, max: null })
     const [modalParams, setModalParams] = useState({ fcId: '', field: '', val: null, max: null })
 
     const openModal = (fcId, field, val = null, max = null) => {
@@ -50,8 +53,9 @@ export function AirList({ tower, floor, exitTheFloor, enterTheFloor }) {
         modalParams.field === 'time-alarm' ? true : false
 
     const onUpdate = async (tower, fcId, field, val) => {
-        await update(tower, fcId, field, val)
         closeModal()
+        await update(tower, fcId, field, val)
+        loadFcs()
     }
 
     if (!fcsList) return <div>123</div>
@@ -60,11 +64,11 @@ export function AirList({ tower, floor, exitTheFloor, enterTheFloor }) {
     return <div className="fc-list-continer">
 
         <section className='title-continer'>
-            <button className="button go-back" onClick={exitTheFloor}>Floor menu</button>
+            <button className="button go-back" onClick={exitFloor}>Floor menu</button>
             <p>Fan Coil units - Tower {tower} - Floor {floor.replace('fl', '')}</p>
             <div className="arrows">
-                <button className="buuton" onClick={() => enterTheFloor((floorNum + 1).toString().padStart(2, 0))}>&#8679;</button>
-                <button className="buuton" onClick={() => enterTheFloor((floorNum - 1).toString().padStart(2, 0))}>&#8681;</button>
+                <button className="buuton" onClick={() => enterFloor((floorNum + 1).toString().padStart(2, 0))}>&#8679;</button>
+                <button className="buuton" onClick={() => enterFloor((floorNum - 1).toString().padStart(2, 0))}>&#8681;</button>
             </div>
         </section>
         <section className="background">

@@ -2,36 +2,35 @@ import fanOff from '../assets/imgs/off.jpg'
 import fanOn1 from '../assets/imgs/on1.jpg'
 import fanOn2 from '../assets/imgs/on2.jpg'
 
-
 const mode = [
-    <p className="cool">COOL</p>,
-    <p className="heat">HEAT</p>,
-    <p className="fan">FAN</p>,
-    <p className="auto">AUTO</p>
+    {txt: 'COOL', class: "cool"},
+    {txt: 'HEAT', class: "heat"},
+    {txt: 'FAN', class: "fan"},
+    {txt: 'AUTO', class: "auto"}
 ]
 
 const fan = [
-    <p className="high">High</p>,
-    <p className="medium">Medium</p>,
-    <p className="low">Low</p>,
-    <p className="auto">Auto</p>
+    {txt: 'High', class: "high"},
+    {txt: 'Medium', class: "medium"},
+    {txt: 'Low', class: "low"},
+    {txt: 'Auto', class: "auto"}
 ]
 
 const com = [
-    <p className="off">OFF</p>,
-    <p className="on">ON</p>,
-    <p className="auto">AUTO</p>
+    {txt: 'OFF', class: "off"},
+    {txt: 'ON', class: "on"},
+    {txt: 'AUTO', class: "auto"}
 ]
 
 const status = [
-    <p className="off">OFF</p>,
-    <p className="on">ON</p>
+    {txt: 'OFF', class: "off"},
+    {txt: 'ON', class: "on"}
 ]
 
 const alarm = [
-    <p className="ok">OK</p>,
-    <p className="alarm">ALARM</p>,
-    <p className="ok">OK*</p>
+    {txt: 'OK', class: "ok"},
+    {txt: 'ALARM', class: "alarm"},
+    {txt: 'OK*', class: "ok"}
 ]
 
 const animation = [
