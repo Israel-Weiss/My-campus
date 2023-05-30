@@ -12,18 +12,18 @@ import { startTempInterval } from "../../services/fc.temp.service"
 export function AirList({ tower, floor, exitFloor, enterFloor }) {
 
     const intervalId = useRef()
-
     useEffect(() => {
         loadFcs()
+        startLoadInterval()
+        return () => clearInterval(intervalId.current)
     }, [floor])
 
     useEffect(() => {
         startTempInterval()
-        startLoadInterval()
-        return () => clearInterval(intervalId.current)
     }, [])
 
     const startLoadInterval = () => {
+        if (intervalId.current) clearInterval(intervalId.current)
         intervalId.current = setInterval(() => {
             loadFcs()
         }, 5 * 1000)
@@ -32,7 +32,8 @@ export function AirList({ tower, floor, exitFloor, enterFloor }) {
     const [fcsList, setFcs] = useState()
 
     const loadFcs = async () => {
-        setFcs(await getFcsList(tower, floor))
+        const fcs = await getFcsList(tower, floor)
+        setFcs(fcs)
     }
 
     const loggedInUser = useSelector(state => state.userModule.loggedInUser)
