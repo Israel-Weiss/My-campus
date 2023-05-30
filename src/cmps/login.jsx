@@ -20,7 +20,6 @@ export function Login({ login, close }) {
 
     const handleChange = (ev) => {
         ev.preventDefault()
-        const field = ev.target.name
         if (ev.target.name === 'userName') userName.current = ev.target.value
         else userPassword.current = ev.target.value
         if (incorrect) setIncorect(false)

@@ -3,6 +3,7 @@ import { query, savaToStorage } from "./storage.service"
 
 export {
     getDefaultUser,
+    logInUser,
     checkUser
 }
 
@@ -35,8 +36,16 @@ async function checkUser(name, password) {
 }
 
 async function getDefaultUser() {
-    const users = await getUsers()
-    const defaultUser = users.find(user => user.default = true)
+    let defaultUser = await query('HMI_loggedIn')
+    if (!defaultUser) {
+        const users = await getUsers()
+        defaultUser = users.find(user => user.default = true)
+    }
     return defaultUser
 }
+
+function logInUser(user) {
+    savaToStorage('HMI_loggedIn', user)
+}
+
 

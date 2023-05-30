@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux"
 
 import { Time } from "./time"
 import { Login } from "./login"
-import { getDefaultUser } from '../services/user.service'
+import { getDefaultUser, logInUser } from '../services/user.service'
 import { login } from "../store/actions/user.action"
 
 import userIcon from '../assets/imgs/users.jpg'
@@ -30,7 +30,10 @@ export function Header() {
         onLogin(user)
     }
 
-    const onLogin = (user) => dispach(login(user))
+    const onLogin = (user) => {
+        dispach(login(user))
+        logInUser(user)
+    }
 
     const [showLogin, setShowLogin] = useState(false)
     const toggleLogin = () => setShowLogin(!showLogin)
