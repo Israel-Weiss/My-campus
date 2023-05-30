@@ -1,5 +1,5 @@
 // import { httpService } from "./http.service"
-import { query, savaToStorage } from "./storage.service"
+import { query, saveToStorage } from "./storage.service"
 
 export {
     getDefaultUser,
@@ -19,7 +19,7 @@ async function getUsers() {
     let users = await query(STORAGE_KEY)
     if (!users || users.length < 3) {
         // users = await httpService.post('users', usersList)
-        users = await savaToStorage(STORAGE_KEY, usersList)
+        users = await saveToStorage(STORAGE_KEY, usersList)
     }
     return users
 }
@@ -45,7 +45,7 @@ async function getDefaultUser() {
 }
 
 function logInUser(user) {
-    savaToStorage('HMI_loggedIn', user)
+    saveToStorage('HMI_loggedIn', user)
 }
 
 

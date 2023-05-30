@@ -1,12 +1,12 @@
 
 export {
-    savaToStorage,
+    saveToStorage,
     query,
     getByID,
     put
 }
 
-async function savaToStorage(entityType, entitys) {
+async function saveToStorage(entityType, entitys) {
     const jsonEntitys = JSON.stringify(entitys)
     localStorage.setItem(entityType, jsonEntitys)
     const newList = await query(entityType)
@@ -31,7 +31,7 @@ async function put(entityType, entity) {
     const entitys = await query(entityType)
     const idx = entitys.findIndex(curEntity => curEntity._id === entity._id)
     entitys.splice(idx, 1, entity)
-    savaToStorage(entityType, entitys)
+    saveToStorage(entityType, entitys)
 
     const newEntity = await getByID(entityType, entity._id)
     return newEntity

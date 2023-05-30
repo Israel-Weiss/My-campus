@@ -1,5 +1,5 @@
 import { httpService } from "./http.service"
-import { query, getByID, savaToStorage, put } from "./storage.service"
+import { query, getByID, saveToStorage, put } from "./storage.service"
 
 export {
     startTempInterval,
@@ -34,7 +34,7 @@ async function setTowertemp(towerName) {
     })
     const upAlarmFcs = getTowerAlarms(upTempFcs, towerName)
     // await httpService.post(`fcs${towerName}`, upAlarmFcs)
-    savaToStorage(STORAGE_KEY + towerName, upAlarmFcs)
+    saveToStorage(STORAGE_KEY + towerName, upAlarmFcs)
 }
 
 function createTemp(val, sp) {
@@ -74,7 +74,7 @@ async function restAlarms() {
         )
         const upAlarmFcs = getTowerAlarms(restartFcs, towerNames[i])
         // httpService.get(`fcs${towerNames[i]}`, upAlarmFcs)
-        savaToStorage(STORAGE_KEY + towerNames[i], upAlarmFcs)
+        saveToStorage(STORAGE_KEY + towerNames[i], upAlarmFcs)
     }
 }
 

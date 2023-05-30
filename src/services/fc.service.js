@@ -1,5 +1,5 @@
 // import { httpService } from "./http.service"
-import { query, savaToStorage, getByID, put, } from "./storage.service"
+import { query, saveToStorage, getByID, put, } from "./storage.service"
 import { createTimeoutIds, upAlarm } from "./fc.temp.service"
 import { fcsDesA, fcsDesB, fcsDesC, fcsDesD } from "./data"
 
@@ -73,7 +73,7 @@ async function _createAllFcs() {
             fcs.push(...flFcs)
         }
         // await httpService.post(`fcs${towerName}`, fcs)
-        await savaToStorage(STORAGE_KEY + towerName, fcs)
+        await saveToStorage(STORAGE_KEY + towerName, fcs)
     }
     return 'finish'
 }

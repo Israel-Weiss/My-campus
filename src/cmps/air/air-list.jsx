@@ -15,6 +15,9 @@ export function AirList({ tower, floor, exitFloor, enterFloor }) {
 
     useEffect(() => {
         loadFcs()
+    }, [floor])
+
+    useEffect(() => {
         startTempInterval()
         startLoadInterval()
         return () => clearInterval(intervalId.current)
@@ -34,7 +37,6 @@ export function AirList({ tower, floor, exitFloor, enterFloor }) {
 
     const loggedInUser = useSelector(state => state.userModule.loggedInUser)
 
-    // const [modalParams, setModalParams] = useState({ fcId: '', field: '', val: null, max: null })
     const [modalParams, setModalParams] = useState({ fcId: '', field: '', val: null, max: null })
 
     const openModal = (fcId, field, val = null, max = null) => {
@@ -74,7 +76,7 @@ export function AirList({ tower, floor, exitFloor, enterFloor }) {
         <section className="background">
             <div className="list">
                 <div className="fc-list-menu">
-                    <div className="num">Num.</div>
+                    <div className="num">Num</div>
                     <div className="description">Description</div>
                     <div className="status">Status</div>
                     <div className="comand">Com</div>
